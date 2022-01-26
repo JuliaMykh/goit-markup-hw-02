@@ -1,0 +1,55 @@
+/* Главная страница */
+/*  Цвет заголовков #212121  */
+/* Главный голубой #2196F3
+главный белый текст #FFFFFF
+Цвет абзацев #757575
+Футер мейл и тел rgba(255, 255, 255, 0.6)
+Фон:
+Хедер #FFFFFF
+Чем мы занимаемся #E5E5E5
+Наша команда #F5F4FA
+Главный черный #2F303A
+*/
+:root {
+  --header-color: #212121;
+  --main-blue-color: #2196f3;
+  --main-white-color: #ffffff;
+  --text-color: #757575;
+  --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
+  --header-background-color: #ffffff;
+  --main-background-color: #e5e5e5;
+  --black-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+}
+body {
+  background-color: var(--main-background-color);
+  color: var(--text-color);
+  font-family: Roboto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Хедер */
+.logo {
+  color: var(--main-blue-color);
+}
+.logo-black {
+  color: var(--header-color);
+}
+.site-nav .link {
+  color: var(--header-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--main-blue-color);
+}
+.contacts .link {
+  color: var(--text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--main-blue-color);
+}
