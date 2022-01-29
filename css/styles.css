@@ -6,13 +6,11 @@
   --main-white-color: #ffffff;
   --text-color: #757575;
   --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
-  --header-background-color: #ffffff;
-  --main-background-color: #e5e5e5;
   --black-background-color: #2f303a;
   --team-background-color: #f5f4fa;
 }
 body {
-  background-color: var(--main-background-color);
+  background-color: var(--main-white-color);
   color: var(--text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
