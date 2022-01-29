@@ -17,7 +17,8 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-ul {
+ul,
+li {
   list-style: none;
 }
 a {
@@ -128,4 +129,32 @@ a {
   color: var(--footer-mail-tel-color);
   font-size: 14px;
   line-height: 1.7;
+}
+
+/* Страница Портфолио */
+
+/* Фильтры */
+.buttons-port .button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.buttons-port .button-portfolio:hover,
+.buttons-port .button-portfolio:focus {
+  color: var(--main-white-color);
+  background-color: var(--main-blue-color);
+}
+/* Портфолио */
+
+.link-porfolio > .header-portfolio {
+  color: var(--header-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.link-porfolio > .p-portfolio {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
