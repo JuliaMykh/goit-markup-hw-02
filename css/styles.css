@@ -86,6 +86,9 @@ a {
   background-color: var(--main-blue-color);
 }
 /* Наши приемущества */
+.h2-title-benefits {
+  display: none;
+}
 .benefits {
   font-size: 14px;
   line-height: 1.14;
@@ -143,7 +146,9 @@ a {
   background-color: var(--main-blue-color);
 }
 /* Портфолио */
-
+.h1-header-portfolio {
+  display: none;
+}
 .link-porfolio > .header-portfolio {
   color: var(--header-color);
   font-weight: 700;
