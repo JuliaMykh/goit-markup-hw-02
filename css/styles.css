@@ -21,6 +21,7 @@ li {
 }
 a {
   text-decoration: none;
+  font-style: normal;
 }
 .section-title {
   color: var(--header-color);
@@ -59,7 +60,9 @@ a {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .footer-contacts .link:hover,
-.footer-contacts .link:focus {
+.footer-contacts .link:focus,
+.adress .adress-link:hover,
+.adress .adress-link:focus {
   color: var(--main-blue-color);
 }
 
@@ -121,7 +124,7 @@ a {
 .logo-white {
   color: var(--main-white-color);
 }
-.adress {
+.adress-link {
   color: var(--main-white-color);
   font-size: 14px;
   line-height: 1.7;
