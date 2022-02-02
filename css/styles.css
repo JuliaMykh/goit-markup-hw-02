@@ -99,6 +99,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   text-align: left;
+  text-transform: uppercase;
 }
 .benefits-text {
   font-size: 14px;
@@ -142,9 +143,11 @@ a {
 
 /* Фильтры */
 .buttons-port .button-portfolio {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 .buttons-port .button-portfolio:hover,
 .buttons-port .button-portfolio:focus {
