@@ -65,6 +65,9 @@ a {
 .adress .adress-link:focus {
   color: var(--main-blue-color);
 }
+.link.current {
+  color: var(--main-blue-color);
+}
 
 /* Герой */
 .hero {
@@ -152,6 +155,7 @@ a {
 .h1-header-portfolio {
   display: none;
 }
+
 .link-porfolio > .header-portfolio {
   color: var(--header-color);
   font-weight: 700;
